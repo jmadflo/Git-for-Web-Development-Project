@@ -1,4 +1,4 @@
-// Testing git flow
+https://codepen.io/jmaderoflo/pen/LYVpVrL?editors=1100
 
     1. What is Semantic HTML? 
     Semantic HTML is a way of structuring the content of a website in a way that conveys the meaning of each part of the website. It is also useful for SEO optimization purposes.
@@ -15,7 +15,7 @@
 
 
     5. Name two tags that have required attributes
-    The '<img>' tag has a required attribute of 'src' because this tag displays an image and needs to have a link to the image that it is supposed to render.
+    The '<img>' tag has a required attribute of 'src' because this tag displays an image and needs to have a link to the image that it is supposed to render. The <a> tag much have an 'href' attribute because it must know where to redirect the user when clicked.
 
     6. What do we put in the head of our HTML document?
     The head of an HTML document contains the metadata of the webpage not the content.
@@ -130,7 +130,16 @@
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
-    2. What happens when an element is positioned absolutely? 
+    An inline element will only take up the space that it needs on the webpage, while a block element will take up as much room as it has available before bumping into other parts of the webpage.
+
+    2. What happens when an element is positioned absolutely?
+    It will always keep its position relative to its parent or if it does not have one will keep its position relative to the webpage view, so it will maintain its despite scrolling in this case. 
+
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
-    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default.
+    Block: div, p, form
+    Inline: span, a
+    Inline-block: img
+
     5. In your own words, explain the box model. What is the fix for the box model? 
